@@ -5,7 +5,7 @@ KatBot MTProto-Nodejs runs on the [**telegram-mtproto**](https://github.com/zero
 
 
 ## Features
-- Connects with Telegram's MTProto server and saves the client session
+- Connects with [Telegram's MTProto](https://core.telegram.org/mtproto) server and saves the client session
 - getUsers.js
   - Runs [channels.getParticipants](https://github.com/wfjsw/telegram-core-docs/blob/master/method/channels.getParticipants.md)
   - Returns [ChannelParticipants](https://github.com/wfjsw/telegram-core-docs/blob/master/type/channels.ChannelParticipants.md) vector<[user](https://github.com/wfjsw/telegram-core-docs/blob/master/constructor/user.md)>
