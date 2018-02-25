@@ -31,6 +31,11 @@ npm install --save mtproto-storage-fs
 ## Example Output
 A vector of https://github.com/wfjsw/telegram-core-docs/blob/master/constructor/user.md
 
+## Goal
+1. Get full list of users in the channel
+2. Find most inactive users so we can kick them
+3. Remove bots
+
 ## To do
 - Return a complete user vector of a channel
 - Parse the result
