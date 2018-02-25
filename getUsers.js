@@ -97,13 +97,13 @@ const getUsers = async () => {
 // First check if we are already signed in (if credentials are stored). If we
 // are logged in, execution continues, otherwise the login process begins.
 (async function() {
-	if (!(await app.storage.get('signedin'))) {
+    if (!(await app.storage.get('signedin'))) {
         console.log('Not signed in');
-		await login(client, phone).catch(console.error);
+        await login(client, phone).catch(console.error);
         console.log('Signed in successfully');
-		app.storage.set('signedin', true);
+        app.storage.set('signedin', true);
 	} else {
         console.log('Already signed in');
-  }
-  getUsers();
+    }
+    getUsers();
 })();
