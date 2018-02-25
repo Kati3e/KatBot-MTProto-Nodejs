@@ -27,7 +27,7 @@ npm install --save mtproto-storage-fs
   - https://fabianpastor.github.io/webogram
   - ![where_to_get_chat_info](https://raw.githubusercontent.com/Kati3e/KatBot-MTProto-Nodejs/master/images/where_to_get_chat_info.png)  
 
-## Example Output
+## Output
 A vector of [users](https://github.com/wfjsw/telegram-core-docs/blob/master/constructor/user.md)
 
 ## Goal
