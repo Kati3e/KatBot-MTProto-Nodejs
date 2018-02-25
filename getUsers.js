@@ -102,7 +102,7 @@ const getUsers = async () => {
         await login(client, phone).catch(console.error);
         console.log('Signed in successfully');
         app.storage.set('signedin', true);
-	} else {
+    } else {
         console.log('Already signed in');
     }
     getUsers();
